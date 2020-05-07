@@ -13,14 +13,18 @@
 + fake-useragent          0.1.11
 
 ## 使用方法 
-获取课程链接中的课程号，例如
 
-https://www.icourse163.org/course/SCU-1003253003 
-
-中的SCU-1003253003 在setting.py中更改
-
+**从mooc网站获取课程的url**
 ```
-COURSE_ID="SCU-1003253003"
+python3 get_urls.py
+```
+```
+python3 parse_json_to_csv.py
+```
+然后运行：
+```
+python3 run.py
 ```
 
-然后运行run.py,运行之前确保依赖安装好了
+
+然后运行run.py,运行之前确保依赖安装好
